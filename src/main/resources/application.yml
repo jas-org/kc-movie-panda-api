@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/lixo.dev.in
+          #audience: my-client
+
+logging:
+  level:
+    org.springframework.security: DEBUG
